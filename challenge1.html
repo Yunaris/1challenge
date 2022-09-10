@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <meta charset="UTF-8">
+      <title>Encriptador</title>
+      <link rel="stylesheet"href="reset.css">
+      <link rel="stylesheet" href="CSSchallenge.css">
+     
+
+    </head>
+    
+    <body class="cuerpo">
+        <header>
+            <div class="cabeza">
+                <img class= "logo" src="imagenes/Y.png">
+              <nav class="titulo">
+                <h1 class=>Encriptador de texto</h1>
+              </nav>
+            </div>
+            
+        </header>
+        
+        <main>
+            <section>
+                <div>
+                    <textarea class="textoentrada" cols="40" rows="6" placeholder="Ingrese texto aquí"></textarea>
+                </div>
+
+                <div class="botones">
+
+                    <button class="btnencriptar" onclick="botonencriptar()">Encriptar</button>
+                    <button class="btndesencriptar" onclick="botondesencriptar()">Desencriptar</button>
+
+                </div>
+            </section>
+            <section>
+                <div id="desaparecer">
+                <textarea class="textoencriptado" cols="18" rows="8" placeholder="No hay texto para encriptar"></textarea>          
+                </div>   
+            
+                <div>
+                    <button class="btncopiar" onclick="copiar()">Copiar</button>
+                </div>
+                
+            </section>
+        </main>
+        <footer>
+            <P class="piepagina"> Este proyecto ha sido elaborado por YUNARIS CERRA CAMPO</P>
+        </footer>
+
+          
+    </body>
+</html>
+
+<script src="JSchallenge.js"></script>
