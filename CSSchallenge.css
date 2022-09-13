@@ -47,11 +47,14 @@ main{
   border-radius: 10px ;
     
 }
+.twotextarea{
+  margin-left: 142px;
+}
 .textoencriptado{
   background-image: url(imagenes/Muñeco.png);
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: 142px;
+  
   width: 400px;
   height: 500px;
   border-radius: 10px ;
@@ -129,6 +132,12 @@ main{
 
 }
 
+@media screen and (max-whidth:480px){
+  .textoentrada, .textoencriptado{
+    width: auto;
+  }
+  .twotextarea{ margin-left: auto;}
+}
 
     
     
