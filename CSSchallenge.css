@@ -35,35 +35,33 @@
  
 main{
   display: flex;
+  height: auto;
   position: relative;
   text-align: center;
-  margin-left: 100px;
+  margin-left: 5%;
     
 }
 .textoentrada{
-  width: 600px;
+  
   height: 400px;
   font-size: 15px;
   border-radius: 10px ;
     
 }
 .twotextarea{
-  margin-left: 142px;
+  margin-left: 20%;
 }
 .textoencriptado{
   background-image: url(imagenes/Muñeco.png);
   background-repeat: no-repeat;
   background-position: center;
-  
-  width: 400px;
+  width: 300px;
   height: 500px;
   border-radius: 10px ;
   font-size: 15px;
   
-  
-  
-  
 }
+
 .botones{
   margin-top: 10px;
 }
@@ -83,7 +81,6 @@ main{
   font-size: 20px;
   color: white;
   
- 
 }
 
 .btndesencriptar {
@@ -110,7 +107,7 @@ main{
   flex-direction:row;
   padding: 5px;
   margin-top: 10px;
-  margin-left: 142px;
+  margin-left: 43%;
   width: 200px;
   height: 50px;
   box-sizing: border-box;
@@ -132,12 +129,31 @@ main{
 
 }
 
-@media screen and (max-whidth:480px){
-  .textoentrada, .textoencriptado{
-    width: auto;
-  }
-  .twotextarea{ margin-left: auto;}
+
+@media screen and (max-width:480px) {
+
+.titulo {margin-left: auto;
+  margin-right: auto;
+  position:static ;
+}
+main{
+  display: block;
+  margin-left: auto;
 }
 
-    
-    
+.textoentrada, {
+  margin-left: auto;
+ 
+}
+.twotextarea{
+  margin-left: auto;
+}
+.textoencriptado{
+  margin-top: 4%;
+  
+}
+.btncopiar{
+  margin-left: auto;
+}
+} 
+ 
